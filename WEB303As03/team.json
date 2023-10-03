@@ -1,0 +1,28 @@
+[
+	{
+	   "name": "Dhruv Patel",
+	   "position": "Web Developer",
+	   "bio": "As a skilled web developer, Dhruv Patel excels in creating dynamic and user-friendly web applications. With a strong educational background in web development from St. Cloir College, Dhruv is passionate about staying up-to-date with the latest web technologies and best practices."
+	},
+	{
+	   "name": "Sarah Johnson",
+	   "position": "Digital Marketing Manager",
+	   "bio": "Sarah Johnson is an experienced digital marketing manager who has successfully executed marketing campaigns for international brands. With a strategic mindset and creative flair, Sarah leads XY Corp's digital marketing efforts."
+	},
+	{
+	   "name": "David Lee",
+	   "position": "Product Manager",
+	   "bio": "David Lee is a dedicated product manager with a proven track record of bringing innovative products to market. His expertise in product development and market research contributes significantly to XY Corp's success."
+	},
+	{
+	   "name": "Linda Chen",
+	   "position": "Human Resources Manager",
+	   "bio": "Linda Chen is the Human Resources Manager at XY Corp, responsible for fostering a positive workplace environment and managing HR operations. Her dedication to employee well-being is a cornerstone of XY Corp's culture."
+	},
+	{
+	   "name": "Alex Turner",
+	   "position": "Sales Director",
+	   "bio": "Alex Turner, as the Sales Director, leads XY Corp's sales team to drive revenue growth and customer satisfaction. With a customer-centric approach, Alex ensures the company's success in the market."
+	}
+ ]
+ 
