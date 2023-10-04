@@ -24,7 +24,7 @@ function getDataWithGetJSON() {
       url: 'team.json',
       dataType: 'json',
       success: function (data) {
-        // Add a delay for bonus (1 mark)
+        // Add a delay for bonus  mark
         setTimeout(function () {
           // Clear the "Loading..." message
           $('#team').empty();
