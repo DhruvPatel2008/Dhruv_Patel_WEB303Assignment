@@ -1,3 +1,7 @@
+/*
+    Assignment #4
+    {Dhruv Patel}
+*/
 $(function () {
   if (!navigator.geolocation) {
     document.getElementById('locationhere').textContent = "Geolocation is not supported by your browser.";
