@@ -1,0 +1,59 @@
+/* Style for the main photo */
+.main-photo {
+  border: 2px solid blue;
+  width: 800px; 
+  height: 450px; 
+  display: block;
+  margin: 0 auto;
+}
+
+/* Style for the thumbnails */
+.thumbnail {
+  display: inline-block;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.thumbnail img {
+  width: 80px; 
+  height: 45px;
+  border: 2px solid transparent; 
+}
+
+.thumbnail.active img {
+  border-color: blue; 
+}
+
+/* Style for the modal */
+#modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  padding: 20px;
+  z-index: 1000;
+  display: none;
+  border: 2px solid blue;
+}
+
+#modal h2 {
+  margin-top: 0;
+}
+
+#modal img {
+  width: 800px;
+  height: 450px;
+  display: block;
+  margin-bottom: 20px;
+}
+
+#close-modal {
+  display: block;
+  margin: auto;
+  padding: 10px 20px;
+  background-color: blue;
+  color: white;
+  border: none;
+  cursor: pointer;
+}

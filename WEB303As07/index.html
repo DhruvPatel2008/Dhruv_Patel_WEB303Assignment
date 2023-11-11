@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Photo Viewer Gallery</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/photoViewer.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<body>
+    <h1>Dhruv Patel</h1>
+    <!-- open Gallery Buttons -->
+    <button id="open-gallery">Open Gallery</button>
+    <button id="close-gallery" style="display: none;">Close Gallery</button>
+
+    <!-- Photo Viewer -->
+    <div id="photo-viewer" style="display: none;">
+        <img class="main-photo" src="img/full-sized-photo-1.jpg" alt="Main Image">
+        <div class="thumbnails">
+            <!-- Thumbnails -->
+            <a href="img/full-sized-photo-1.jpg" class="thumbnail"><img src="img/full-sized-photo-1.jpg" alt="Thumbnail 1"></a>
+            <a href="img/full-sized-photo-2.jpg" class="thumbnail"><img src="img/full-sized-photo-2.jpg" alt="Thumbnail 2"></a>
+            <a href="img/full-sized-photo-3.jpg" class="thumbnail"><img src="img/full-sized-photo-3.jpg" alt="Thumbnail 3"></a>
+            <a href="img/full-sized-photo-4.jpg" class="thumbnail"><img src="img/full-sized-photo-4.jpg" alt="Thumbnail 4"></a>
+        </div>
+    </div>
+
+    <!-- Source Attribution -->
+    <a href="https://unsplash.com/wallpapers/travel/japanese">Image Source</a>
+
+    <!-- JavaScript Files -->
+    <script src="js/photoViewer.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>

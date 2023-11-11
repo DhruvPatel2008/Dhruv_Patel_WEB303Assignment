@@ -1,0 +1,27 @@
+.main-photo {
+    border: 2px solid blue; /* Blue border for the main photo */
+}
+
+.thumbnail {
+    border: 2px solid grey; 
+    display: inline-block; 
+    margin: 5px;
+}
+
+.thumbnail img {
+    display: block; 
+    width: 100%; 
+    height: auto; 
+}
+
+.thumbnail.active,
+.thumbnail.active img {
+    border: 2px solid red; 
+}
+
+
+
+#modal img {
+    width: 800px;
+    height: 450px; 
+}
