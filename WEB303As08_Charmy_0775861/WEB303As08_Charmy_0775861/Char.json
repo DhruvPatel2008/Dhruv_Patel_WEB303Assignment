@@ -1,0 +1,137 @@
+[
+    {
+        "Rank": 1,
+        "FirstName": "Atticus",
+        "LastName": "Finch",
+        "Actor": "Gregory Peck",
+        "Film": "To Kill a Mockingbird",
+        "Year": 1962,
+        "Notes": "Received Academy Award for performance"
+    },
+    {
+        "Rank": 2,
+        "FirstName": "Indiana",
+        "LastName": "Jones",
+        "Actor": "Harrison Ford (1)",
+        "Film": "Raiders of the Lost Ark",
+        "Year": 1981,
+        "Notes": null
+    },
+    {
+        "Rank": 3,
+        "FirstName": "James",
+        "LastName": "Bond",
+        "Actor": "Sean Connery",
+        "Film": "Dr. No",
+        "Year": 1962,
+        "Notes": null
+    },
+    {
+        "Rank": 4,
+        "FirstName": "Rick",
+        "LastName": "Blaine",
+        "Actor": "Humphrey Bogart (1)",
+        "Film": "Casablanca",
+        "Year": 1942,
+        "Notes": "Nominated for Academy Award for performance"
+    },
+    {
+        "Rank": 5,
+        "FirstName": "Marshal",
+        "LastName": "Will",
+        "Actor": "Gary Cooper (1)",
+        "Film": "High Noon",
+        "Year": 1952,
+        "Notes": "Received Academy Award for performance"
+    },
+    {
+        "Rank": 6,
+        "FirstName": "Clarice",
+        "LastName": "Starling",
+        "Actor": "Jodie Foster",
+        "Film": "The Silence of the Lambs (1)",
+        "Year": 1991,
+        "Notes": "Received Academy Award for performance"
+    },
+    {
+        "Rank": 7,
+        "FirstName": "Rocky",
+        "LastName": "Balboa",
+        "Actor": "Sylvester Stallone",
+        "Film": "Rocky",
+        "Year": 1976,
+        "Notes": "Nominated for Academy Award for performance"
+    },
+    {
+        "Rank": 8,
+        "FirstName": "Ellen",
+        "LastName": "Ripley",
+        "Actor": "Sigourney Weaver",
+        "Film": "Aliens",
+        "Year": 1986,
+        "Notes": "Nominated for Academy Award for performance"
+    },
+    {
+        "Rank": 9,
+        "FirstName": "George",
+        "LastName": "Bailey",
+        "Actor": "James Stewart (1)",
+        "Film": "It's a Wonderful Life (1)",
+        "Year": 1946,
+        "Notes": "Nominated for Academy Award for performance"
+    },
+    {
+        "Rank": 10,
+        "FirstName": "T.E.",
+        "LastName": "Lawrence",
+        "Actor": "Peter O'Toole",
+        "Film": "Lawrence of Arabia",
+        "Year": 1962,
+        "Notes": "Historical figure; nominated for Academy Award for performance"
+    },
+    {
+        "Rank": 11,
+        "FirstName": "Jefferson",
+        "LastName": "Smith",
+        "Actor": "James Stewart (2)",
+        "Film": "Mr. Smith Goes to Washington",
+        "Year": 1939,
+        "Notes": "Nominated for Academy Award for performance"
+    },
+    {
+        "Rank": 12,
+        "FirstName": "Tom",
+        "LastName": "Joad",
+        "Actor": "Henry Fonda (1)",
+        "Film": "The Grapes of Wrath",
+        "Year": 1940,
+        "Notes": "Nominated for Academy Award for performance"
+    },
+    {
+        "Rank": 13,
+        "FirstName": "Oskar",
+        "LastName": "Schindler",
+        "Actor": "Liam Neeson",
+        "Film": "Schindler's List (1)",
+        "Year": 1993,
+        "Notes": "Historical figure; nominated for Academy Award for performance"
+    },
+    {
+        "Rank": 14,
+        "FirstName": "Han",
+        "LastName": "Solo",
+        "Actor": "Harrison Ford (2)",
+        "Film": "Star Wars (1)",
+        "Year": 1977,
+        "Notes": null
+    },
+    {
+        "Rank": 15,
+        "FirstName": "Norma",
+        "LastName": "Rae",
+        "Actor": "Sally Field",
+        "Film": "Norma Rae",
+        "Year": 1979,
+        "Notes": "Based upon southern mill worker Crystal Lee Sutton; received Academy Award for performance"
+    }
+]

@@ -1,0 +1,4 @@
+.table tbody tr>td.active {
+    background-color: green !important;
+    color: while !important;
+}
