@@ -1,13 +1,10 @@
 $(document).ready(function() {
-    // Load character data from the JSON file
     $.getJSON('characters.json', function(characters) {
-        // Populate the table with character data
         characters.forEach(function(character) {
             $('#characters-table tbody').append(
                 '<tr>' +
                 '<td>' + character.firstName + '</td>' +
                 '<td>' + character.lastName + '</td>' +
-                // Add other character details here
                 '</tr>'
             );
         });
