@@ -1,0 +1,12 @@
+
+.sort-header:after {
+    content: "";
+    float: right;
+    margin-left: 5px;
+}
+.sort-asc:after {
+    content: "\25B2";
+}
+.sort-desc:after {
+    content: "\25BC";
+}
