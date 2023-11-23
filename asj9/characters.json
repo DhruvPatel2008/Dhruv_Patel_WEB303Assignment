@@ -1,0 +1,9 @@
+[
+    {"firstName": "Alice", "lastName": "Liddell", "age": 20, "role": "Adventurer", "date": "2021-04-01"},
+    {"firstName": "Bob", "lastName": "Smith", "age": 30, "role": "Scientist", "date": "2022-05-12"},
+    {"firstName": "Charlie", "lastName": "Brown", "age": 15, "role": "Student", "date": "2020-06-23"},
+    {"firstName": "Diana", "lastName": "Prince", "age": 28, "role": "Warrior", "date": "2019-07-04"},
+    {"firstName": "Edward", "lastName": "Scissorhands", "age": 25, "role": "Gardener", "date": "2021-08-15"},
+    {"firstName": "Fiona", "lastName": "Charming", "age": 22, "role": "Princess", "date": "2022-09-17"},
+    {"firstName": "George", "lastName": "Jetson", "age": 35, "role": "Futurist", "date": "2020-10-20"}
+]
