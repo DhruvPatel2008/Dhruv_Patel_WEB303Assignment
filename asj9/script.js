@@ -1,6 +1,7 @@
 $(document).ready(function(){
     var originalData = [];
-    var sortOrder = { column: null, ascending: true };
+    var currentData = [];
+    var clickCounts = { firstName: 0, lastName: 0, age: 0, role: 0, date: 0 };
 
     function renderTable(data) {
         var tableContent = data.map(function(character) {
@@ -17,28 +18,28 @@ $(document).ready(function(){
     }
 
     function sortData(column) {
-        if (sortOrder.column === column) {
-            sortOrder.ascending = !sortOrder.ascending;
+        clickCounts[column]++;
+        if (clickCounts[column] === 3) {
+            // Reset to original data and click count
+            currentData = originalData.slice();
+            clickCounts[column] = 0;
         } else {
-            sortOrder.column = column;
-            sortOrder.ascending = true;
+            currentData.sort(function(a, b) {
+                if (a[column] < b[column]) return clickCounts[column] % 2 === 0 ? 1 : -1;
+                if (a[column] > b[column]) return clickCounts[column] % 2 === 0 ? -1 : 1;
+                return 0;
+            });
         }
 
-        originalData.sort(function(a, b) {
-            if (a[column] < b[column]) return sortOrder.ascending ? -1 : 1;
-            if (a[column] > b[column]) return sortOrder.ascending ? 1 : -1;
-            return 0;
-        });
-
-        updateChevrons();
-        renderTable(originalData);
+        updateChevrons(column);
+        renderTable(currentData);
     }
 
-    function updateChevrons() {
-        $('th a').html(function() {
-            var column = $(this).data('column');
-            var chevron = sortOrder.ascending ? '&#x25B2;' : '&#x25BC;';
-            return `${column} ${sortOrder.column === column ? chevron : ''}`;
+    function updateChevrons(column) {
+        $('th a').each(function() {
+            var currentColumn = $(this).data('column');
+            var chevron = clickCounts[currentColumn] === 1 ? '&#x25B2;' : (clickCounts[currentColumn] === 2 ? '&#x25BC;' : '');
+            $(this).html(`${currentColumn} ${currentColumn === column ? chevron : ''}`);
         });
     }
 
@@ -47,7 +48,8 @@ $(document).ready(function(){
         dataType: 'json',
         success: function(data) {
             originalData = data;
-            renderTable(data);
+            currentData = originalData.slice(); // create a copy of the original data
+            renderTable(currentData);
         }
     });
 
