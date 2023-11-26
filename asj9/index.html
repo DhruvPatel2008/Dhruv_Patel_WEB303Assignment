@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <form id="registrationForm">
+        <input type="text" id="username" placeholder="Username"><br>
+        <input type="password" id="password" placeholder="Password"><br>
+        <input type="password" id="confirmPassword" placeholder="Confirm Password"><br>
+        <input type="checkbox" id="terms">
+        <label for="terms">I accept the terms of service</label><br>
+        <select id="country">
+            <option value="">Select your country</option>
+            <!-- Options will be added dynamically -->
+        </select><br>
+        <button type="submit" id="submitButton" disabled>Submit</button>
+    </form>
+    <div id="message"></div>
+
+    <script src="countries.js"></script>
+</body>
+</html>
