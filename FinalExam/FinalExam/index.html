@@ -1,0 +1,76 @@
+<html>
+
+<head>
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <h1>
+        <!-- your name goes here -->
+    </h1>
+    <div style="padding:20px; font:bold 20pt arial; background-color:#EEEEEE; margin:10px 0">Add to Shipment</div>
+    <form method="post" name="shipment">
+        <table>
+            <thead>
+                <tr>
+                    <th colspan="2">Sender Information</th>
+                    <th></th>
+                    <th colspan="2">Delivery Information</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Sender Name</td>
+                    <td><input id="senderName" required="true" /></td>
+                    <td style="width:50px"></td>
+                    <td>Delivery Name</td>
+                    <td><input id="deliveryName" required="true" /></td> 
+                </tr>
+                <tr>
+                    <td>Sender Postal Code</td>
+                    <td><input id="senderPostalCode" required="true" /></td>
+                    <td> </td>
+                    <td>Delivery Postal Code</td>
+                    <td><input id="deliveryPostalCode" required="true" /></td>
+                </tr>
+                <tr>
+                    <td colspan="5" style="text-align:center; padding:10px; font-weight:bold; font-size:12pt">
+                        Package Information
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="5">
+                        Weight <input id="weight"  required="true" />
+                        <select id="weightUnit">
+                            <option>pounds</option>
+                            <option>kilograms</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="5" style="text-align:center; padding:10px"><input type="submit" value="Add Shipment" /></td>
+                </tr>
+            </tbody>
+        </table>
+
+        <div style="padding:20px; font:bold 20pt arial; background-color:#EEEEEE; margin:10px 0">Shipment Items</div>
+        <table id="shipmentTable">
+            <thead>
+                <tr>
+                    <th>Sender Name</th>
+                    <th>Sender Postal Code</th>
+                    <th>Delivery Name</th>
+                    <th>Delivery Postal Code</th>
+                    <th>Distance in KM</th>
+                    <th>Weight in Kilograms</th>
+                    <th>Weight in Pounds</th>
+                </tr>
+            </thead>
+        </table>
+    </form>
+
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+</body>
+
+</html>
